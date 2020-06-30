@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+header {
+  height: 200px;
+  background-color: yellow;
+}
+
+main {
+  margin: 10px 0;
+}
+main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col-left {
+  float: left;
+  height: 70%;
+  width: 29%;
+  margin-right: 1%;
+  background-color: red;
+}
+.col-central {
+  float: left;
+  padding: 50px;
+  width: 40%;
+  background-color: grey;
+}
+.col-right {
+  float: left;
+  width: 29%;
+  margin-left: 1%;
+  background-color: brown;
+}
+
+footer {
+  height: 100px;
+  background-color: blue;
+}
